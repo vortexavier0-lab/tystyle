@@ -4,7 +4,7 @@ Complete library in a single file for easy distribution and use.
 """
 
 __version__ = "2.0.0"
-__author__ = "Your Name"
+__author__ = "Vortex"
 __description__ = "Beautiful terminal styling with gradients and animations"
 
 import os
@@ -1455,3 +1455,4 @@ __all__ = [
     'list_gradients', 'demo', 'quick_gradient', 'random_gradient', 'blend_gradients',
     'console'
 ] + list(CustomGradients.GRADIENTS.keys()) + [f"{name}_rich" for name in CustomGradients.GRADIENTS.keys()]
+
